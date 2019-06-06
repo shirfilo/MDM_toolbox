@@ -47,7 +47,9 @@ In this repository you can find the all the Niftis needed for a test run of the 
 For a test run of the software add the MDM_toolbox repository to your path and use the following matlab code:
 
 Parameter_path='MDM_toolbox/Example_data/R1_map_Wlin.nii.gz';
+
 TV_path='MDM_toolbox/Example_data/TV_map.nii.gz';
+
 Seg_path='MDM_toolbox/Example_data/segmentation.nii.gz';
 
 example= MDM_run(Parameter_path,TV_path,Seg_path,1,saveat_path,{'par_max',0.5,'par_min',0.1,'Parameter_str','R1'})
