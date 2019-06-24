@@ -2,7 +2,7 @@
 
 **MDM** is a software package designed to calculate the derivative of a qMRI parameter relative to
 MTV (MDM signature). The software and the sensetivity of MDM measurments to molecular composition are described in the following article:
-"Non-invasive detection of age-related molecular profiles in the human brain"
+"Disentangling molecular alterations from water-content changes in the aging human brain using quantitative MRI."
 
 example= MDM_run(Parameter_path,TV_path,Seg_path,1,saveat_path,{'par_max',0.5,'par_min',0.1,'Parameter_str','R1'})
 
